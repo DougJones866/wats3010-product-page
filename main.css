@@ -2,7 +2,58 @@
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
 body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+      position: relative; 
+      background-color: lightslategray;
+  }
+  
+#video {
+    padding-top:50px;
+    height:auto;
+    width: 50%;
+    color: #fff;
+    background-color: #1E88E5;
+    border-top-style: solid;
+    
+
+    }
+    
+#about {
+    padding-top:50px;
+    height:500px;color: #fff; 
+    background-color: #673ab7;
+    border-top-style: solid;
+    }
+  
+#features {
+     padding-top:50px;
+     height:500px;color: #fff; 
+     background-color: #ff9800;
+     border-top-style: solid;
+     }
+  
+#testimonials {
+      padding-top:50px;
+      height:500px;color: #fff; 
+      background-color: #00bcd4;
+      border-top-style: solid;
+      }
+  
+#join {
+      padding-top:50px;
+      height:500px;color: #fff; 
+      background-color: cornflowerblue;
+      border-top-style: solid;
+      }
+  
+#contact {
+      padding-top:50px;
+      height:500px;color: #fff; 
+      background-color: #009688;
+      border-top-style: solid;
+      }
+      
+.container-fluid {
+    font-family:"Arial Black", Gadget, sans-serif;
+
 }
+  
