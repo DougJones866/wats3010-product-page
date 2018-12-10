@@ -9,10 +9,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   
-          <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
-             support bookmarking. -->
-             
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
         <link rel="favicon" href="favicon.ico">
         
         <link rel="stylesheet" type="text/css" href="main.css">
@@ -31,7 +28,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">API Superstore</a>
+      <img src="assets/logos/api_logo.png" alt="superstore">
     </div>
     <div>
       <div class="collapse navbar-collapse" id="myNavbar">
@@ -40,7 +37,7 @@
           <li><a href="#about">About</a></li>
           <li><a href="#features">Features</a></li>
           <li><a href="#testimonials">Testimonials</a></li>
-          <li><a href="#join">Newsletter</a></li>
+          <li><a href="#join">Sign Up</a></li>
           <li><a href="#contact">Contact Us</a></li>
             </ul>
           </li>
@@ -48,18 +45,20 @@
       </div>
     </div>
   </div>
+  
 </nav>    
 
 <div id="video" class="container-fluid">
+
   <h1>Please watch a short video to see what we're about</h1>
 
         <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/L48g1ZWLMdo" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/L48g1ZWLMdo" allowfullscreen></iframe>
 </div>
         
 </div>
 <div id="about" class="container-fluid">
-  <h1>About</h1>
+  
   <p>The API Superstore provides a catalog of third­party APIs that you can use to enhance your
 business. From e­commerce to maps, API Superstore lists all of the services that customers
 expect and saves you the headache of sorting it out yourself! The longer you wait, the longer
@@ -67,34 +66,49 @@ you’re not making more money and happier users!</p>
  
 </div>
 <div id="features" class="container-fluid">
+
   <h1>Features</h1>
-  <ul>
+  
 
-<li>Save time, get APIs!</li>
-<li>Signup and save!</li> 
-<li>All the APIs all the time!</li>
-<li>Click, click, code!</li>
+    <p>Save time, get APIs!</p>
+    <p>Signup and save!</p> 
+    <p>All the APIs all the time!</p>
+    <p>Click, click, code!</p>
 
-</ul> 
+
 </div>
+
 <div id="testimonials" class="container-fluid">
   <h1>Testimonials</h1>
-  <p>“This is the best website ever!” ­­ C.P. Yu, AmazingSite.com</p>
+  <div class="t1">
+  <blockquote class="blockquote">
+  <p>“This is the best website ever!” ­­ 
+  <footer class="blockquote-footer">C.P. Yu, AmazingSite.com</p></footer>
+  </blockquote>
+  </div>
 
+<div class="t2">
+    <blockquote class="blockquote">
 <p>“I have really admired the way the API Superstore team has created a truly divine interface for
 browsing all that information that’s out there online for free. For a low monthly fee, I’m able to
 more easily keep up with the churn of information that makes application development so
 difficult, and API Superstore makes my world so much happier! Please don’t stop the rocking!”
-­­ Amy Zon, Massive Anonymous Customer</p>
-
-<p>“Once again, I’m blown away by the amazing offerings of the API Superstore. You really are
-SUPER!” ­­ Clara Cache,
-</p>
+­­  <footer class="blockquote-footer">Amy Zon, Massive Anonymous Customer</p></footer>
+</blockquote>
 </div>
 
-<div id="join" class="container-fluid">
-  <h1>Newsletter</h1>
-  <form>
+<div class="t3">
+<blockquote class="blockquote">
+<p>“Once again, I’m blown away by the amazing offerings of the API Superstore. You really are
+SUPER!” ­­ <footer class="blockquote-footer">Clara Cache,
+</p></footer>
+</blockquote>
+</div>
+</div>
+
+<div id="join" class="container-fluid" >
+  <h1 >Sign Up</h1>
+  <form >
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
@@ -106,7 +120,7 @@ SUPER!” ­­ Clara Cache,
   </div>
   <div class="form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    <label class="form-check-label" for="exampleCheck1">Allow us to send you information about additional offers</label>
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>

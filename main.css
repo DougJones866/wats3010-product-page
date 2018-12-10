@@ -1,59 +1,98 @@
-/* Styles for Product Page Customization */
+/* Styles forx Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
 body {
       position: relative; 
-      background-color: lightslategray;
+      
+  }
+  ul{
+      position:relative;
   }
   
-#video {
-    padding-top:50px;
-    height:auto;
-    width: 50%;
-    color: #fff;
-    background-color: #1E88E5;
-    border-top-style: solid;
-    
+h1 {
+    padding-top:45px;
+}
+  
+#video  {
+    padding:15px;
+    height: 60%;
+    width: 60%;
+    color: black;
+
 
     }
+
     
 #about {
-    padding-top:50px;
-    height:500px;color: #fff; 
-    background-color: #673ab7;
-    border-top-style: solid;
+   
+    padding-bottom: 30px;
+    color: black;
     }
   
 #features {
-     padding-top:50px;
-     height:500px;color: #fff; 
-     background-color: #ff9800;
-     border-top-style: solid;
+     padding:25px;     
+     color: black;
+     background-color:#ccccff;
+     
      }
   
 #testimonials {
-      padding-top:50px;
-      height:500px;color: #fff; 
-      background-color: #00bcd4;
-      border-top-style: solid;
+      
+      background-color:#ccccff;
+
+      color: black;
       }
   
 #join {
-      padding-top:50px;
-      height:500px;color: #fff; 
-      background-color: cornflowerblue;
-      border-top-style: solid;
+    background-image: url("assets/join.jpg");
+    background-repeat: no-repeat;  
+    background-size:cover;
+     background-size:100% 100%;
+      padding:75px;      
+
+      color: black;
       }
   
 #contact {
-      padding-top:50px;
-      height:500px;color: #fff; 
-      background-color: #009688;
-      border-top-style: solid;
+      padding:50px; 
+      background-color:#1a1a1a;
+
+      color: white;
       }
       
 .container-fluid {
     font-family:"Arial Black", Gadget, sans-serif;
+    text-align: center;
 
 }
+
+.t1 {
+    border-style: solid;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    text-align: center;
+
+}
+
+.t2 {
+    border-style: solid;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: white;
+
+}
+
+.t3 {
+    border-style: solid;
+    padding: 20px;
+    padding-bottom: 15px;
+    margin: 10px;
+    text-align: center;
+    background-color: white;
+  
+
+}
+
   
